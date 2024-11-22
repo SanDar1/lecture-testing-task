@@ -1,0 +1,6 @@
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/stack.dir
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/main.dir
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/test_stack.dir
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/benchmark_stack.dir
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/edit_cache.dir
+/c/Users/User/source/repos/lecture-testing-task/05_hw/build/CMakeFiles/rebuild_cache.dir

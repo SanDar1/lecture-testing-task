@@ -1,0 +1,2 @@
+/mingw64/bin/ar.exe qc libstack.a CMakeFiles/stack.dir/stack.c.o
+/mingw64/bin/ranlib.exe libstack.a

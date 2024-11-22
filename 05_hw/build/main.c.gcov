@@ -1,0 +1,40 @@
+        -:    0:Source:C:/Users/User/source/repos/lecture-testing-task/05_hw/main.c
+        -:    0:Graph:./CMakeFiles/main.dir/main.c.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:#include "stack.h"
+        -:    2:
+        -:    3:#include <stdio.h>
+        -:    4:
+    #####:    5:int main() {
+        -:    6:    Stack stack;
+    #####:    7:    initStack(&stack);
+        -:    8:
+    #####:    9:    push(&stack, 10);
+    #####:   10:    push(&stack, 20);
+    #####:   11:    push(&stack, 30);
+        -:   12:
+    #####:   13:    printf("After pushing elements:\n");
+    #####:   14:    traverseStack(&stack);
+        -:   15:
+    #####:   16:    pop(&stack);
+        -:   17:
+    #####:   18:    printf("After popping an element:\n");
+    #####:   19:    traverseStack(&stack);
+        -:   20:
+    #####:   21:    Node* searchResult = searchByValue(&stack, 20);
+    #####:   22:    if (searchResult != NULL) {
+    #####:   23:        printf("Element with value 20 found.\n");
+        -:   24:    } else {
+    #####:   25:        printf("Element with value 20 not found.\n");
+        -:   26:    }
+        -:   27:
+    #####:   28:    Node* topElement = getTop(&stack);
+    #####:   29:    if (topElement != NULL) {
+    #####:   30:        printf("Top element: %d\n", topElement->data);
+        -:   31:    }
+        -:   32:
+    #####:   33:    return 0;
+        -:   34:}
+        -:   35:
+        -:   36:

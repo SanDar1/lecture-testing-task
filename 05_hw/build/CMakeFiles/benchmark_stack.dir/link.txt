@@ -1,0 +1,1 @@
+/mingw64/bin/gcc.exe  -fprofile-arcs -ftest-coverage -Wl,--enable-auto-import --coverage CMakeFiles/benchmark_stack.dir/benchmark_stack.c.o -o benchmark_stack.exe -Wl,--out-implib,libbenchmark_stack.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libstack.a

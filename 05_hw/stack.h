@@ -1,3 +1,4 @@
+
 #pragma once
 
 #include <stdbool.h>
@@ -19,7 +20,7 @@ Node* createNode(int data);
 
 void initStack(Stack* stack);
 
-void destroyStack(Stack *stack);
+void destroyStack(Stack* stack);
 
 void push(Stack* stack, int data);
 
